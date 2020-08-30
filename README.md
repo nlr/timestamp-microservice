@@ -15,3 +15,6 @@
   "natural": "December 15, 2015"
 }
 ```
+
+### Demo
+[timestamp microservice](http://timestamp-nlr.herokuapp.com/)
