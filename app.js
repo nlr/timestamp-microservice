@@ -1,15 +1,15 @@
-var express = require('express');
-var time = require('./time');
+const express = require("express");
+const time = require("./time");
 
-var app = express();
-var port = process.env.PORT || 3000;
+const app = express();
+const port = process.env.PORT || 3000;
 
-app.use(express.static('public'))
+app.use(express.static("public"));
 
-app.get('/:date', function(req, res) {
+app.get("/:date", (req, res) => {
   res.json(time(req.params.date));
 });
 
-app.listen(port, function() {
-	console.log(`timestamp app listening on port ${ port }`);
+app.listen(port, () => {
+  console.log(`timestamp app listening on port ${port}`);
 });
