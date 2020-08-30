@@ -6,8 +6,8 @@
 > 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 ### Example usage:
-[/December 15, 2015] (http://timestamp-nlr.herokuapp.com/December%2015,%202015)  
-[/1450137600] (http://timestamp-nlr.herokuapp.com/1450137600)
+[/December 15, 2015](http://timestamp-nlr.herokuapp.com/December%2015,%202015)  
+[/1450137600](http://timestamp-nlr.herokuapp.com/1450137600)
 ### Example output:
 ```JSON
 {
