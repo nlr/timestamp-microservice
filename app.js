@@ -1,5 +1,5 @@
-const express = require("express");
-const time = require("./time");
+import express from "express";
+import time from "./time.js";
 
 const app = express();
 const port = process.env.PORT || 3000;

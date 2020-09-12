@@ -1,6 +1,6 @@
-const moment = require("moment");
+import moment from "moment";
 
-module.exports = (dateString) => {
+const time = (dateString) => {
   const formats = [
     "MMMM D, YYYY",
     "MMMM D YYYY",
@@ -18,3 +18,5 @@ module.exports = (dateString) => {
 
   return { unix: time.format("X"), natural: time.format("MMMM D, YYYY") };
 };
+
+export default time;
